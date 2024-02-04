@@ -43,7 +43,7 @@ def add_mouse():
     mice_df.to_csv('mice.csv', header=True)
 
     print("Added mouse to ./mouse.csv!")
-    print("Consider opening a pull request to update to our Github Repo: GITHUB_REPO_HERE")
+    print("Consider opening a pull request to update to our Github Repo: https://github.com/qsenn35/py-polling-rate-tester")
 
 def check_for_mouse(hex_vid, hex_pid):
     found = True

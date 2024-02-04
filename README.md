@@ -1,11 +1,11 @@
 # Python Mouse Polling Rate Tester
 
 ## DISCLAIMER
-This was written for and on MacOS, this may not work for Linux and WSL.
+This was written on MacOS, this may not work for Linux and WSL.
 
 ## Motivations
 Most polling rate testers (other than MouseTester) don't accurately show Polling Rates past 4000Hz.
-MouseTester is great if you need a graph to show Polling Rate variability, but if all you want to do is check the minimum, average, and maximum polling rates of a mouse, a simply command-line tool will do the trick.
+MouseTester is great if you need a graph to show Polling Rate variability, but if all you want to do is check the minimum, average, and maximum polling rates of a mouse, a simple command-line tool will do the trick.
 
 ## How It Works
 This script uses the `pyusb` python package to interact with `libusb` to get inputs directly from the Mouse USB device.
